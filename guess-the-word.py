@@ -5,6 +5,7 @@ secret_word = random.choice(words)
 dashes = "-"*len(secret_word)
 x = 0
 
+# function that gets the guessed letter
 def get_guess():
     letter = input("Guess: ")
     while True:
